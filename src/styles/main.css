@@ -1,0 +1,96 @@
+body {
+  background-color: #f2f2f2;
+}
+
+/* ----HEADER STYLES---- */
+.header-text {
+  position: relative;
+  top: 7px;
+  color: white;
+  font-weight: 600;
+}
+/* ----HEADER STYLES END---- */
+
+/* ----SEARCH BAR STYLES---- */
+.search-bar {
+  position: relative;
+  left: 8%;
+  border-radius: 2px;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.04rem rgba(0, 0, 0, 0.40) !important;
+}
+
+.icon-search {
+  height: 22px;
+  position: relative;
+  left: -12px;
+  top: 15px;
+}
+/* ----SEARCH BAR STYLES END---- */
+
+/* ----CARD COMPONENT STYLES---- */
+.card {
+  height: 350px;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.card-body {
+  background-color: white;
+  z-index: 2;
+}
+
+.card * {
+  transition: 1s ease;
+}
+
+.card:hover .card-body, .card-body:active{
+  transform: translateY(-85px);
+}
+
+.card-body:active {
+  transition: 2s, ease;
+}
+
+.card:hover img {
+ transition: none;
+}
+
+.card-icon {
+position: relative;
+top: 62%;
+left: 79%;
+height: 40px;
+width: 40px;
+z-index: 1;
+}
+
+.text-names {
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  bottom: 15px;
+}
+
+.text-location {
+  font-size: 16px;
+  position: relative;
+  bottom: 35px;
+  height: 25px;
+}
+
+.text-phone {
+  font-size: 16px;
+  position: relative;
+  bottom: 22px;
+}
+
+.text-email {
+  font-size: 16px;
+  position: relative;
+  bottom: 40px;
+}
+/* ----CARD COMPONENT STYLES END---- */
+
