@@ -14,7 +14,7 @@ body {
 /* ----SEARCH BAR STYLES---- */
 .search-bar {
   position: relative;
-  left: 8%;
+  left: 5%;
   border-radius: 2px;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.04rem rgba(0, 0, 0, 0.40) !important;
 }
@@ -22,7 +22,7 @@ body {
 .icon-search {
   height: 22px;
   position: relative;
-  left: -12px;
+  left: -22px;
   top: 15px;
 }
 /* ----SEARCH BAR STYLES END---- */
